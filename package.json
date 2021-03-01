@@ -1,9 +1,11 @@
 {
-  "name": "react-accelerator",
+  "name": "ontrack",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.5.0",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "react-router": "^5.0.1",
