@@ -1,7 +1,7 @@
 import React from "react"
 import { Button, Form, FormControl, InputGroup } from "react-bootstrap"
 
-export const SearchField = ({ handleSubmit }: any): JSX.Element => (
+export const SearchField = ({ handleSubmit }: { handleSubmit: (e: any) => void }): JSX.Element => (
   <Form className="mb-sm-3 mt-sm-3" onSubmit={handleSubmit}>
     <InputGroup>
       <FormControl

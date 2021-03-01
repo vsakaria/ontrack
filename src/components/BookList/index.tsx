@@ -4,7 +4,7 @@ import { Container, Pagination, Row } from 'react-bootstrap'
 import { BookCard } from "../BookCard";
 import { SearchField } from "../SearchField";
 
-const BooksList = ({ initPage }: any): ReactElement => {
+const BooksList = ({ initPage }: { initPage: number }): ReactElement => {
   const [books, setBooks] = useState([])
   const [page, setPage] = useState(initPage)
   const [search, setSearch] = useState("")
