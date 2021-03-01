@@ -2,7 +2,7 @@ import React from "react";
 
 import { cleanup, render } from "@testing-library/react";
 
-import BookList from "../BooksList";
+import BookList from "..";
 
 afterAll(cleanup);
 

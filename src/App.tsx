@@ -1,5 +1,5 @@
 import React from "react";
-import BooksList from "./components/BookList/BooksList";
+import BooksList from "./components/BookList";
 
 const App: React.FC = () => {
   const searchParams = new URLSearchParams(window.location.search);
