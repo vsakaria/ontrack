@@ -47,8 +47,8 @@ const BooksList = ({ initPage }: { initPage: number }): ReactElement => {
       </Row>
       <Row>
         <Pagination>
-          <Pagination.Prev onClick={(): void => { setPage(page - 1) }}> Previous </Pagination.Prev>
-          <Pagination.Next onClick={(): void => { setPage(page + 1) }}> Next </Pagination.Next>
+          <Pagination.Prev disabled={page === 1} onClick={(): void => { setPage(page - 1) }}> Previous </Pagination.Prev>
+          <Pagination.Next data-testid="next" onClick={(): void => { setPage(page + 1) }}> Next </Pagination.Next>
         </Pagination>
       </Row>
 
