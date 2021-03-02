@@ -1,3 +1,19 @@
+# On Track Info
+
+This repo is a seed project I have been working on to define the best React practices, hence I like to work of this and evaluate future best practices.
+The seed project used many of the technologies listed below, but I have stripped a lot of them out to meet the requirements of the test.
+
+Here I have used React Testing Library because of the value it gives you in integration DOM level tests. Although I am happy to you Enzyme too.
+
+Normal commands apply
+
+switch to `feature-branch`
+
+Run `yarn install`
+Run `yarn start`
+Run `yarn test`
+Run `yarn coverage` (A window will open with a report too)
+
 # React Accelerator seed project
 
 # Installation.

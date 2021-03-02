@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchField should render the correct DOM: SearchField 1`] = `
+<div>
+  <form
+    class="mb-sm-3 mt-sm-3"
+    data-testid="form"
+  >
+    <div
+      class="input-group"
+    >
+      <input
+        class="form-control"
+        placeholder="Search"
+        type="text"
+      />
+      <div
+        class="input-group-prepend"
+      >
+        <button
+          class="btn btn-primary"
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
