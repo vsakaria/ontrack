@@ -7,6 +7,8 @@ Here I have used React Testing Library because of the value it gives you in inte
 
 Normal commands apply
 
+switch to `feature-branch`
+
 Run `yarn install`
 Run `yarn start`
 Run `yarn test`
