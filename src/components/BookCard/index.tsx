@@ -1,7 +1,7 @@
 import React from "react"
 import { Card } from "react-bootstrap"
 
-interface Book {
+export interface Book {
     book_title: string;
     book_author: string;
     book_publication_year: string;
